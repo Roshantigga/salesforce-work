@@ -1,0 +1,15 @@
+<template>
+    <lightning-card title="Account Loader">
+        <lightning-button 
+            label="Load Accounts" 
+            onclick={handelclick}>
+        </lightning-button>
+    </lightning-card>
+    <lightning-card>
+        <lightning-datatable
+            key-field="Id"
+            data={data}
+            columns={columns}>
+        </lightning-datatable>
+    </lightning-card>
+</template>

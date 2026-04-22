@@ -1,0 +1,9 @@
+<template>
+    <lightning-button variant="brand" title="change" label="change the world" onclick={here}>  </lightning-button>
+    <template if:true={isVisible}>
+        <p>miserable world</p>
+    </template>
+    <template if:false={isVisible}>
+        <p>HappY World</p>
+    </template>
+</template>
